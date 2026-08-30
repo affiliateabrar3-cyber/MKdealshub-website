@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Check out the most popular and trending products loved by shoppers right now at MKdealshub.">
+  <title>Trending Products & Deals - MKdealshub</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NQM50Y5CRT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-NQM50Y5CRT');
+  </script>
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="index.html" class="logo">MKdealshub</a>
+
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search products...">
+    </div>
+
+    <nav>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="electronics.html">Electronics</a></li>
+        <li><a href="fashion.html">Fashion</a></li>
+        <li><a href="home-kitchen.html">Home & Kitchen</a></li>
+        <li><a href="beauty.html">Beauty</a></li>
+        <li><a href="trending.html">Trending & Deals</a></li>
+      </ul>
+    </nav>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <section class="page-banner">
+    <h1>Trending Products & Deals</h1>
+    <p>The most popular picks our shoppers love right now.</p>
+  </section>
+
+  <section class="products-section">
+    <div class="product-grid" id="productGrid">
+      <!-- Trending products will be automatically inserted here -->
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-links">
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+      <a href="affiliate-disclosure.html">Affiliate Disclosure</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="terms.html">Terms & Conditions</a>
+    </div>
+    <p>&copy; 2026 MKdealshub. All rights reserved.</p>
+  </footer>
+
+  <script src="products.js"></script>
+  <script src="trending.js"></script>
+</body>
+</html>

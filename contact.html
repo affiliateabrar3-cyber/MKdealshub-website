@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Get in touch with the MKdealshub team for questions, feedback, or suggestions.">
+  <title>Contact Us - MKdealshub</title>
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NQM50Y5CRT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-NQM50Y5CRT');
+  </script>
+</head>
+<body>
+
+  <header class="site-header">
+    <a href="index.html" class="logo">MKdealshub</a>
+
+    <div class="search-box">
+      <input type="text" id="searchInput" placeholder="Search products...">
+    </div>
+
+    <nav>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="electronics.html">Electronics</a></li>
+        <li><a href="fashion.html">Fashion</a></li>
+        <li><a href="home-kitchen.html">Home & Kitchen</a></li>
+        <li><a href="beauty.html">Beauty</a></li>
+        <li><a href="trending.html">Trending & Deals</a></li>
+      </ul>
+    </nav>
+
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <section class="page-banner">
+    <h1>Contact Us</h1>
+    <p>We'd love to hear from you — questions, feedback, or suggestions.</p>
+  </section>
+
+  <section class="static-content">
+    <h2>Get in Touch</h2>
+    <p>If you have any questions about a product, a deal, or our website in general, feel free to reach out. We try to respond within 1-2 business days.</p>
+    <p>Email us directly at: <a href="mailto:support@mkdealshub.com">support@mkdealshub.com</a></p>
+
+    <h2>Send Us a Message</h2>
+    <form class="contact-form" id="contactForm">
+      <label for="nameInput">Your Name</label>
+      <input type="text" id="nameInput" name="name" required>
+
+      <label for="emailInput">Your Email</label>
+      <input type="email" id="emailInput" name="email" required>
+
+      <label for="messageInput">Your Message</label>
+      <textarea id="messageInput" name="message" rows="5" required></textarea>
+
+      <button type="submit" class="form-submit-btn">Send Message</button>
+    </form>
+    <p id="formConfirmation" style="display:none; color: #1a9c56; font-weight: 600; margin-top: 12px;">Thank you! Your message has been noted. We'll get back to you soon.</p>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-links">
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+      <a href="affiliate-disclosure.html">Affiliate Disclosure</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="terms.html">Terms & Conditions</a>
+    </div>
+    <p>&copy; 2026 MKdealshub. All rights reserved.</p>
+  </footer>
+
+  <script src="products.js"></script>
+  <script src="static-page.js"></script>
+</body>
+</html>
