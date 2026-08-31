@@ -5,10 +5,10 @@ const allProducts = [
   {
     id: 1,
     name: "Wireless Bluetooth Earbuds",
-    price: 899,
+    price: 999,
     category: "electronics",
-    image: "https://via.placeholder.com/300x300.png?text=Product+Image",
-    affiliateLink: "#",
+    image: "https://m.media-amazon.com/images/I/61vEGUBSswL._SX522_.jpg",
+    affiliateLink: "https://bitli.in/uY98WjW",
     trending: true
   },
   {
@@ -37,5 +37,14 @@ const allProducts = [
     image: "https://via.placeholder.com/300x300.png?text=Product+Image",
     affiliateLink: "#",
     trending: false
+  },
+  {
+    id: 5,
+    name: "noise ALT buds",
+    price: 2299,
+    category:"electronics",
+    image: "https://m.media-amazon.com/images/I/31qXMe-jCuL._SY300_SX300_QL70_FMwebp_.jpg",
+    affiliateLink: "https://bitli.in/y7t2h9k",
+    trending: true 
   }
 ];
