@@ -37,13 +37,13 @@ function renderProducts(productsArray, containerId) {
 // This reads the current page's filename (e.g. "electronics.html")
 // and uses it to know which category to filter.
 
-const currentPage = window.location.pathname.split('/').pop(); // e.g. "electronics.html"
+const currentPage = window.location.pathname.split('/').pop().replace('.html', ''); // works with or without .html
 
 const pageCategoryMap = {
-  'electronics.html': 'electronics',
-  'fashion.html': 'fashion',
-  'home-kitchen.html': 'home-kitchen',
-  'beauty.html': 'beauty'
+  'electronics': 'electronics',
+  'fashion': 'fashion',
+  'home-kitchen': 'home-kitchen',
+  'beauty': 'beauty'
 };
 
 const currentCategory = pageCategoryMap[currentPage];
